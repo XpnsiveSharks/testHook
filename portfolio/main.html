@@ -1,0 +1,15 @@
+To understand the bus better, let's consider a simple example of how a bus may word. 
+
+In the ond days of computing this is how buses worked.
+
+We'll see what problem using a bus designed like this and how modern buses work differently to overcome these problems
+
+to start with, let's consider there are 16 wires for the address bus. This will allow us to access 64 kilobytes of memory, not a lot by today's standards. 
+
+Now let's consider that we have a 16 bit bus. 16 bits can sent or recieved on the data bus at once which is two bytes.
+
+Lastly, we have our control bus. In this example there are only four wires. This is a simple example and you would generally have more. But for this example, there is  a read, write, transfer acknowledgement and a clock signal wire.
+
+the clock signal will determine when data is sent. The read and write wires determine if data is being sent or received and the transfer acknoledgement wire determines if the data went through ok So essentially, set the address bus to the address you want to read or write to, place or receive your data in the data bus and use the control wires to determine when to start the transfer, what sort of transfer, be it either read or write and if it was received. this is a very simple example that you may find in a very old computer, but it is not without its problems. Consider that with this example we have 36 wires. Consider now that we wanted to send 32 or 64 bits at once. This would greatly increase the number of wires required, however having extra wires is not the only problem this would create.
+
+This brings us to this topic of serial vs. parallel. Serial transmission is when data is transferred using one channel. Each bit follows the previous bit, as in 'follow
