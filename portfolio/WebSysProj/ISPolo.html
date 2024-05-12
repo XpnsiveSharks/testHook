@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CSD Org Shirt - Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="images/logo.png" class="logo" width="100" height="100"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class='bx bx-shopping-bag'></i></a></li>
+                <li><a href="user.html"><i class='bx bx-user'></i></a></li>
+            </ul>
+        </div>
+        <div id="mobile">           
+            <a href="cart.html"><i class='bx bx-shopping-bag'></i></a>
+            <i id="bar" class='bx bx-right-indent' ></i>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single_pro_image">
+            <img src="images/shirtpics/IS-polo-f.png" width="100%" id="MainImg" alt="">
+
+           <div class="small-img">
+
+                <div class="small-img-col">
+                     <img src="images/shirtpics/IS-polo-f.png" width="100%" class="small-i" alt="">
+                </div>
+                <div class="small-img-col">
+                     <img src="images/shirtpics/IS-polo-b.png" width="100%" class="small-i" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>Organization Shirt</h6>
+            <h4>BSIS Organizational Polo</h4>
+            <h2>Php 500.00</h2>
+
+            <select>
+                <option>Select Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add to Cart</button>
+            <h4>Product Details</h4>
+            <span>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus.</span>
+        </div>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>CSD Org Shirt</h2>
+        <p>CSD Students' new identity</p>
+        <div class="prod-container">
+            <div class="prod">
+                <img src="images/shirtpics/IT-polo-f.png" alt="">
+                 <div class="des">
+                    <span>BSIT</span>
+                    <h5>BSIT Organizational Polo</h5>
+                    <h4>P 500</h4>
+                 </div>
+                 <a href="#"><i class='bx bxs-cart-add cart'></i></i></a>
+            </div>   
+            <div class="prod">
+                <img src="images/shirtpics/CS-polo-f.png" alt="">
+                 <div class="des">
+                    <span>BSCS</span>
+                    <h5>BSCS Organizational Polo</h5>
+                    <h4>P 500</h4>
+                 </div>
+                 <a href="#"><i class='bx bxs-cart-add cart'></i></i></a>
+            </div>
+            <div class="prod">
+                <img src="images/shirtpics/EMC-polo-f.png" alt="">
+                 <div class="des">
+                    <span>BSEMC</span>
+                    <h5>BSEMC Organizational Polo</h5>
+                    <h4>P 500</h4>
+                 </div>
+                 <a href="#"><i class='bx bxs-cart-add cart'></i></i></a>
+            </div>
+            <div class="prod">
+                <img src="images/shirtpics/IS-shirt-f.png" alt="">
+                 <div class="des">
+                    <span>BSIS</span>
+                    <h5>BSIS Organizational Polo</h5>
+                    <h4>P 500</h4>
+                 </div>
+                 <a href="#"><i class='bx bxs-cart-add cart'></i></i></a>
+            </div>     
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="images/CSD.png" alt="" width="70" height="70">        
+        </div>
+        <div class="members">
+            <h4>Members</h4>
+            <p>Aban, Marynelle</p>
+            <p>Agustin, Sandra</p>
+            <p>Andres, Andrea</p>
+            <p>Gonzales, Jella</p>
+        </div>
+        <div class="sub">
+            <h4>University of Caloocan City</h4>
+            <h5>Computer Studies Department</h5>
+            <h6>Bachelor of Science in Computer Science</h6>
+            <div class="ucc">
+                <img src="images/caloocan logo.png" alt="" width="60" height="60">
+                <img src="images/ucc.png" alt="" width="60" height="60">
+                <img src="images/csd logo.jpg" alt="" width="60" height="60">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2024, BSCS 1A. Submitted to LA Ablan</p>
+        </div>
+    </footer>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-i");
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src
+        }
+    </script>
+        
+</body>
+
+</html>
